@@ -38,24 +38,24 @@ class Bullshit
     "Away",  "Go",    "The", "Last",  "Hunt",    "End",
   };
   std::vector<std::vector<State>> statetable = {
-    { Shark },                                                // Baby
-    { Daddy, Grandpa, Grandma, Mommy, Doo, Lets },            // Shark
-    { Daddy, Grandpa, Grandma, Mommy, Safe, Run, Lets, Its }, // Doo
-    { Shark },                                                // Daddy
-    { Shark },                                                // Grandpa
-    { Shark },                                                // Grandma
-    { Shark },                                                // Mommy
-    { At },                                                   // Safe
-    { Away },                                                 // Run
-    { Go },                                                   // Lets
-    { The },                                                  // Its
-    { Last },                                                 // At
-    { Doo },                                                  // Away
-    { Hunt },                                                 // Go
-    { End },                                                  // The
-    { Doo },                                                  // Last
-    { Doo },                                                  // Hunt
-    { Doo },                                                  // End
+    { Shark },                                                     // Baby
+    { Daddy, Grandpa, Grandma, Mommy, Doo, Lets },                 // Shark
+    { Daddy, Grandpa, Grandma, Mommy, Safe, Run, Lets, Its, Doo }, // Doo
+    { Shark },                                                     // Daddy
+    { Shark },                                                     // Grandpa
+    { Shark },                                                     // Grandma
+    { Shark },                                                     // Mommy
+    { At },                                                        // Safe
+    { Away },                                                      // Run
+    { Go },                                                        // Lets
+    { The },                                                       // Its
+    { Last },                                                      // At
+    { Doo },                                                       // Away
+    { Hunt },                                                      // Go
+    { End },                                                       // The
+    { Doo },                                                       // Last
+    { Doo },                                                       // Hunt
+    { Doo },                                                       // End
   };
 
   void update_state()
